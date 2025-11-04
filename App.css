@@ -1,0 +1,46 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: #f9f9f9;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #333;
+}
+
+.joke-container {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  width: 300px;
+}
+
+.setup {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.punchline {
+  color: #555;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #0056b3;
+}
